@@ -1,0 +1,34 @@
+3000|Nussplätzchen|rechteckig|6|4|180|20|Milch|12345,6|Eiermasse|2222|Backpulver|3,3333|Zucker|444|Nüsse|555|Schokolade|66,6|Streusel bunt|77,7
+
+
+Hier nur zur Info Spalten in Zeilen aufgeteilt und mit Kommentaren versehen
+  
+Alle Daten befinden sich in einer einzigen Zeile mit CRLF am Ende.
+Seperator ist immer |
+
+Die Zahlenwerte sind i.A.  int, alle Massen sind double.
+
+im .txt File	C++ Variable	Beschreibung
+
+3000|		pl_anz_ges	Gesamtzahl Plätzchen
+Nussplaetzchen|	pl_sorte	Teigsorte
+rechteckig|	pl_form		Form
+6|		pl_laenge	Plätzchen in mm
+4|		pl_breite	Plätzchen in mm
+180|		backtemp	Solltemperatur in°C
+20|		backzeit	in Sekunden
+Milch|		zt1_str		Zutat1 Text
+12345,6|	zt1_m		Zutat1 Masse in g
+Eiermasse|	zt2_str		Zutat2 Text
+2222|		zt2_m		Zutat2 Masse in g
+Backpulver|	zt3_str		Zutat3 Text
+3,3333|		zt3_m		Zutat3 Masse in g
+Zucker|		zt4_str		Zutat4 Text
+444|		zt4_m		Zutat4 Masse in g
+Nuesse|		zt5_str		Zutat5 Text
+555|		zt5_m		Zutat5 Masse in g
+Schokolade|	gu_str		Guss Text
+66,6|		gu_m		Guss Masse in g
+Streusel bunt|	bl_str		Belag Text
+77,7<CRLF>	bl_m		Masse in g, darf auch 0 sein
+				hinter letztem Wert CRLF
